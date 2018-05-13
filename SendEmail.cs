@@ -102,7 +102,6 @@ namespace SendEmail
     /// </summary>
     public class Email
     {
-        public String smtpClient { get; set; }
         public MailAddress from { get; set; }
         public List<String> to { get; set; }
         public List<String> cc { get; set; }
